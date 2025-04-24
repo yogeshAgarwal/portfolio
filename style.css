@@ -126,3 +126,71 @@ h2 {
 .project .info {
   flex: 1;
 }
+
+
+#about {
+  padding: 2rem;
+  color: #e5e7eb;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Experience Section Styling */
+#experience {
+  padding: 2rem;
+  color: #e5e7eb;
+  max-width: 800px;
+  margin: auto;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 2px solid #374151;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #374151;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience-header h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #facc15; /* amber-400 */
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #9ca3af; /* gray-400 */
+}
+
+.role {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #60a5fa; /* blue-400 */
+  margin-bottom: 0.75rem;
+}
+
+.experience-item ul {
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.experience-item li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.experience-item strong {
+  color: #f3f4f6;
+}
