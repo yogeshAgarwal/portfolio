@@ -5,13 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yogesh Agarwal – Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
+  <div class="backdrop" id="backdrop" onclick="toggleSidebar()"></div>
   <div class="container">
     <!-- Sidebar -->
-    <aside class="sidebar">
+    <aside class="sidebar" id="sidebar">
       <h1>Yogesh Agarwal</h1>
       <div class="role">Software Engineer</div>
       <p class="intro">I build and break things. But mostly build 😄</p>
@@ -21,7 +23,6 @@
           <li><a href="#about">ABOUT</a></li>
           <li><a href="#experience">EXPERIENCE</a></li>
           <li><a href="#projects">PROJECTS</a></li>
-          <li><a href="#writing">WRITING</a></li>
         </ul>
       </nav>
 
@@ -33,6 +34,11 @@
         <a href="mailto:yogesh.1997a@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
       </div>
     </aside>
+
+    <!-- Hamburger Menu -->
+    <button class="hamburger" onclick="toggleSidebar()">
+      <i class="fas fa-bars"></i>
+    </button>
 
     <!-- Main Content -->
     <main class="content">
@@ -66,7 +72,7 @@
             <h3>Mfine (Novocura Technologies)</h3>
             <span class="date">Jun 2021 – Dec 2022</span>
           </div>
-          <p class="role">Software Engineer → Senior</p>
+          <p class="role">Software Engineer → Senior Software Engineer</p>
           <ul>
             <li><strong>Workflow Creation:</strong> Used N8N to streamline 3rd-party integrations.</li>
             <li><strong>Real-Time Data Export:</strong> Built SNS/SQS-based pipelines.</li>

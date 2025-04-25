@@ -6,3 +6,10 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
   });
   
+
+  function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    const backdrop = document.getElementById('backdrop');
+    sidebar.classList.toggle('open');
+    backdrop.classList.toggle('show');
+  }
